@@ -1,0 +1,53 @@
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: "Inter", "Arial Rounded MT Bold", sans-serif !important;
+}
+
+.hfont,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: none !important;
+  background-color: hsla(0, 0%, 35%, 0.2);
+}
+
+::-webkit-scrollbar {
+  width: 10px !important;
+  transition: all 1s ease;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsla(0, 0%, 55%, 0.5);
+  border-radius: 1rem;
+}
+
+#nprogress .bar {
+  background: #05deda !important;
+  z-index: 1000000 !important;
+}
+#nprogress .peg {
+  box-shadow: 0 0 10px #05deda, 0 0 5px #05deda !important;
+}
+
+.top-72 {
+  top: 72px !important;
+}
+
+.min-75vh {
+  min-height: 75vh !important;
+}
+
+.w-100 {
+  width: 100%;
+}
